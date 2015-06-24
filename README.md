@@ -1,0 +1,2 @@
+# django-headstart
+Django Headstart
