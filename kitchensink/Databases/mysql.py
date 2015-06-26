@@ -23,7 +23,9 @@ import MySQLdb
 
 class Database:
 
-    host = "127.0.0.1" #127.0.0.1 uses the socket, localhost uses TCP/IP
+    # If host is set to 127.0.0.1, then the client is forced to use TCP/IP.
+    # If host is set to localhost, then a socket or pipe is used.
+    host = "127.0.0.1"
     user = "testuser"
     passwd = "testpass"
     db = "test"
