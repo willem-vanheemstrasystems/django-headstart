@@ -1,5 +1,4 @@
-#!/Users/wvanheemstra/python/django-headstart/bin/python
+#!/Users/wvanheemstra/git/willem-vanheemstrasystems/django-headstart/bin/python
 # EASY-INSTALL-SCRIPT: 'Django==1.8.2','django-admin.py'
 __requires__ = 'Django==1.8.2'
-import pkg_resources
-pkg_resources.run_script('Django==1.8.2', 'django-admin.py')
+__import__('pkg_resources').run_script('Django==1.8.2', 'django-admin.py')
